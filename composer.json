@@ -1,5 +1,0 @@
-{
-    "require": {
-        "messagebird/php-rest-api": "^3.0"
-    }
-}
