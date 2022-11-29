@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".login">
+
+  <RadioButton
+      android:id="@+id/radioButton2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.174"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.814" />
+
+  <Button
+      android:id="@+id/button4"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:background="@android:color/transparent"
+      android:onClick="sendAgain"
+      android:paddingLeft="15dp"
+      android:paddingTop="5dp"
+      android:paddingRight="15dp"
+      android:paddingBottom="5dp"
+      android:text="Tekrar Gönder"
+      android:textAllCaps="false"
+      android:textSize="16sp"
+      android:textStyle="bold|italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.712" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="317dp"
+      android:layout_height="43dp"
+      android:fontFamily="sans-serif-medium"
+      android:text="Yarışmaya katılmak için numaranla giriş yapmalısın."
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.642" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="306dp"
+      android:layout_height="25dp"
+      android:fontFamily="sans-serif-medium"
+      android:text="@string/underline2"
+      android:textAlignment="textStart"
+      android:textColor="@color/white"
+      android:textSize="12sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/radioButton2"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.815" />
+
+  <RadioButton
+      android:id="@+id/radioButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.174"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.768" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="306dp"
+      android:layout_height="25dp"
+      android:fontFamily="sans-serif-medium"
+      android:text="@string/underline"
+      android:textAlignment="textStart"
+      android:textColor="@color/white"
+      android:textSize="12sp"
+      android:textStyle="italic"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toEndOf="@+id/radioButton"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.77" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="233dp"
+      android:layout_height="224dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.09"
+      app:srcCompat="@drawable/bp1s" />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:background="@drawable/btn1"
+      android:onClick="sendCode"
+      android:paddingLeft="15dp"
+      android:paddingTop="5dp"
+      android:paddingRight="15dp"
+      android:paddingBottom="5dp"
+      android:shadowColor="@color/black"
+      android:shadowDx="-1"
+      android:shadowDy="-1"
+      android:text="Kodu Gönder"
+      android:textAllCaps="false"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.917" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="200dp"
+      android:layout_height="50dp"
+      android:background="@drawable/btn1"
+      android:onClick="Verification"
+      android:paddingLeft="15dp"
+      android:paddingTop="5dp"
+      android:paddingRight="15dp"
+      android:paddingBottom="5dp"
+      android:text="Giriş Yap"
+      android:textAllCaps="false"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.917" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="201dp"
+      android:layout_height="36dp"
+      android:fontFamily="sans-serif-black"
+      android:text="Telefon Numarası"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="22dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.411" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="317dp"
+      android:layout_height="43dp"
+      android:fontFamily="sans-serif-medium"
+      android:text="-"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.494" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="54dp"
+      android:layout_height="34dp"
+      android:fontFamily="sans-serif-medium"
+      android:text="+90"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/editTextPhone"
+      app:layout_constraintHorizontal_bias="0.892"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.549" />
+
+  <EditText
+      android:id="@+id/editTextPhone2"
+      android:layout_width="187dp"
+      android:layout_height="46dp"
+      android:backgroundTint="@color/white"
+      android:ems="10"
+      android:hint="Kodu Giriniz"
+      android:inputType="phone"
+      android:textAlignment="center"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.543" />
+
+  <EditText
+      android:id="@+id/editTextPhone"
+      android:layout_width="187dp"
+      android:layout_height="46dp"
+      android:backgroundTint="@color/white"
+      android:ems="10"
+      android:hint="Numarayı Giriniz"
+      android:inputType="phone"
+      android:textColor="@color/white"
+      android:textSize="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.531"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.545" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
